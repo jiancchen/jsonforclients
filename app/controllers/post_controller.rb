@@ -4,7 +4,7 @@ class PostController < ApplicationController
 
   def new
   	@post = Post.new()
-  end
+  end 
 
   def create
   	@post = Post.new(user_params)
